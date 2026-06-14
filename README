@@ -1,8 +1,15 @@
-OpenEmbedded/Yocto layer for Freescale's Distribution images
-=============================================================
+OpenEmbedded/Yocto layer for Freescale's Distribution configurations
+====================================================================
 
-This layer provides support for Freescale's Demonstration images for
-use with OpenEmbedded and/or Yocto Freescale's BSP layer.
+This layer provides the Freescale (`fsl-*`) and Freescale Community
+(`fslc-*`) distro configurations for use with OpenEmbedded and/or the
+Yocto Project Freescale BSP layer.
+
+This is a backward-compatibility layer. The recipes, packagegroups and
+demonstration images it previously carried have moved to the
+`meta-freescale` layer, which is now the single home for that content.
+`meta-freescale-distro` keeps only the distro definitions for the wrynose
+LTS lifetime and is no longer used for recipe development.
 
 This layer depends on:
 
